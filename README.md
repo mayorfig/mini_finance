@@ -1,4 +1,4 @@
-## About This Project
+## About Mini-finance
 This project demonstrates Git operations like clone, pull, push, and PR — a hands-on Mini-Finance tool.
 
 ## **[Mini Finance Project](https://www.tooplate.com/live/2135_mini_finance) - CloudAdvisory Onboarding Task**
