@@ -587,8 +587,7 @@ Bootstrap 5 Dashboard Admin Template
                                     <p class="copyright-text">Copyright © Mini Finance 2048 
                                     - Design: <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a></p>
                                 </div>
-                                  <footer>
-    <p>Mini Finance v1.0 - Deployed on 21 Oct 2025 - By Mayowa Adegbuyi</p>
+    <p>Mini Finance v1.0 - Deployed on <span id ="deploy-date"></span> - By Mayowa Adegbuyi</p>
   </footer>
 
                             </div>
@@ -598,6 +597,11 @@ Bootstrap 5 Dashboard Admin Template
 
             </div>
         </div>
+
+	<script>
+  	document.getElementById('deploy-date').innerText =
+   	 new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+	</script>
 
         <script>
             document.getElementById('date').textContent = new Date().toLocaleDateString(undefined, {
