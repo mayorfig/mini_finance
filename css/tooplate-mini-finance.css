@@ -956,8 +956,18 @@ strong {
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
-  color: #222;
+  color: #111111;
+}
 
+.site-footer a {
+  color: #111; /* Slightly darker for contrast */
+  text-decoration: underline; /* Adds underline */
+  text-underline-offset: 3px; /* Spacing below text */
+  transition: color 0.2s ease;
+}
+
+.site-footer a:hover {
+  color: #000; /* Darker on hover for clarity */
 }
 
 .copyright-text {
