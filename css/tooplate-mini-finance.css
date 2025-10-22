@@ -970,6 +970,13 @@ strong {
   color: #000; /* Darker on hover for clarity */
 }
 
+.commit-hash {
+  font-family: monospace;
+  color: #111;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
 .copyright-text {
   font-size: 14px;
   line-height: 1.6;
