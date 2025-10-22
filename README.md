@@ -259,6 +259,52 @@ See you in the **LinkedIn network!** 🎉
 Note: Minor update for GitHub assignment.
 =======
 
+
+**##README.me Update**
 This project demonstrates Git operations like clone, pull, push, and creating a Pull Request—a hands-on Mini-Finance tool.
 
+**Sprint Summary**
+This 5-day mini-sprint focused on building, improving, and deploying a visible footer on the Mini Finance app hosted on AWS EC2.
+Each day represented an incremental improvement, demonstrating Scrum principles and DevOps practices.
 
+**Daily Progress**
+**Day 1 – Implement & Deploy**
+Added static footer with version, date placeholder, and author name.
+Committed and deployed initial version to EC2.
+Verified visibility on homepage.
+
+---
+
+**Day 2 – Make Date Dynamic**
+Used JavaScript to auto-display the current deploy date (22 Oct 2025).
+<footer>
+  Mini Finance v1.0 — Deployed on <span id="deploy-date"></span> — By Mayowa Adegbuyi
+</footer>
+
+<script>
+  document.getElementById('deploy-date').innerText =
+    new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+</script>
+Re-deployed and confirmed update on EC2.
+
+---
+
+**Day 3 – Polish & Accessibility**
+Improved footer text spacing, font size, and alignment.
+Increased color contrast to meet WCAG AA standard.
+Verified design on both mobile and desktop.
+
+---
+
+**Day 4 – Provenance / Health**
+Added commit hash (rev: 1410628) to footer for traceability.
+Verified provenance in browser and via curl.
+Captured screenshots for Jira documentation.
+
+**Day 5 – Review & Retro**
+Recorded 2–3 minute demo showing the EC2 deployment.
+Captured Jira burndown chart and retro comment.
+Completed documentation and final deployment.
+
+Live Link
+http://51.21.197.69:81/
